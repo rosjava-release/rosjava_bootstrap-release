@@ -1,0 +1,14 @@
+ros-hydro-rosjava-bootstrap (0.1.1-0quantal) quantal; urgency=high
+
+  * message artifact creation bugfixes.
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Thu, 12 Sep 2013 15:00:00 -0000
+
+ros-hydro-rosjava-bootstrap (0.1.0-0quantal) quantal; urgency=high
+
+  * several plugins for sharing of ros gradle logic
+  * message generation code brought in from rosjava_core
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Wed, 11 Sep 2013 15:00:00 -0000
+
+
