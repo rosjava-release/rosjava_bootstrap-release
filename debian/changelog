@@ -1,0 +1,42 @@
+ros-hydro-rosjava-bootstrap (0.1.5-3quantal) quantal; urgency=high
+
+  * maven deployment path -> maven deployment repository.
+  * bugfix install location.
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Tue, 17 Sep 2013 15:00:00 -0000
+
+ros-hydro-rosjava-bootstrap (0.1.4-3quantal) quantal; urgency=high
+
+  * depend on message generation 0.1.+
+  * use package.xml version.
+  * run_depends for the build tools.
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Mon, 16 Sep 2013 15:00:00 -0000
+
+ros-hydro-rosjava-bootstrap (0.1.3-3quantal) quantal; urgency=high
+
+  * added excludes to the ros android plugin.
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Mon, 16 Sep 2013 15:00:00 -0000
+
+ros-hydro-rosjava-bootstrap (0.1.2-3quantal) quantal; urgency=high
+
+  * ros android plugin added
+  * gradle wrapper -> 1.7
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Mon, 16 Sep 2013 15:00:00 -0000
+
+ros-hydro-rosjava-bootstrap (0.1.1-3quantal) quantal; urgency=high
+
+  * message artifact creation bugfixes.
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Thu, 12 Sep 2013 15:00:00 -0000
+
+ros-hydro-rosjava-bootstrap (0.1.0-3quantal) quantal; urgency=high
+
+  * several plugins for sharing of ros gradle logic
+  * message generation code brought in from rosjava_core
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Wed, 11 Sep 2013 15:00:00 -0000
+
+
