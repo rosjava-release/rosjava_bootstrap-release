@@ -140,7 +140,7 @@ class CatkinPackage {
     
     def void generateMessageArtifact(Project p) {
         p.version = version
-        p.dependencies.add("compile", 'org.ros.rosjava_bootstrap:message_generation:0.1.+')
+        p.dependencies.add("compile", 'org.ros.rosjava_bootstrap:message_generation:[0.1,)')
         messageDependencies().each { d ->
             p.dependencies.add("compile", p.dependencies.project(path: ':' + d))
         }
@@ -156,11 +156,11 @@ class CatkinPackage {
 
     /*
      * Hack to work around for rosjava_test_msgs - look in a subfolder for the
-     * msgs and name the artifact by the subfolder name.
+     * msgs and name the artifact by the subfolder name/version.
      */
     def void generateMessageArtifactInSubFolder(Project p, String subfolderName, List<String> dependencies) {
-        p.version = version
-        p.dependencies.add("compile", 'org.ros.rosjava_bootstrap:message_generation:0.1.+')
+        // p.version = version use the subfolder's project version
+        p.dependencies.add("compile", 'org.ros.rosjava_bootstrap:message_generation:[0.1,)')
         dependencies.each { d ->
             p.dependencies.add("compile", p.dependencies.project(path: ':' + d))
         }
