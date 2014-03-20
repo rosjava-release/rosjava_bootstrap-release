@@ -27,7 +27,7 @@ project.ext {
 
 allprojects {
   group='org.ros.rosjava_bootstrap'
-  version = '0.1.19'
+  version = '0.1.20'
 }
 
 subprojects {
@@ -39,6 +39,7 @@ subprojects {
   sourceCompatibility = 1.6
   targetCompatibility = 1.6
 
+  repositories {
     mavenLocal()
     maven {
       url project.rosMavenRepository
