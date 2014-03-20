@@ -1,3 +1,22 @@
+## rosjava_bootstrap (hydro) - 0.1.20-0
+
+User `snorri@snorriheim` released the packages in the `rosjava_bootstrap` repository into the `hydro` distro by running `/usr/bin/bloom-release --track hydro --rosdistro hydro rosjava_bootstrap` on `Thu, 20 Mar 2014 12:17:34 -0000`
+
+The `rosjava_bootstrap` package was released.
+
+Version of package(s) in repository `rosjava_bootstrap`:
+- rosdistro version: `0.1.19-0`
+- old version: `0.1.19-0`
+- new version: `0.1.20-0`
+
+Versions of tools used:
+- bloom version: `0.5.1`
+- catkin_pkg version: `0.1.26`
+- rosdep version: `0.10.25`
+- rosdistro version: `0.3.4`
+- vcstools version: `0.1.31`
+
+
 ## rosjava_bootstrap (hydro) - 0.1.19-0
 
 User `snorri@snorriheim` released the packages in the `rosjava_bootstrap` repository into the `hydro` distro by running `/usr/bin/bloom-release --track hydro --rosdistro hydro rosjava_bootstrap` on `Thu, 20 Mar 2014 00:03:58 -0000`
