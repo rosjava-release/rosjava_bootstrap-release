@@ -1,3 +1,24 @@
+## rosjava_bootstrap (indigo) - 0.2.1-0
+
+The packages in the `rosjava_bootstrap` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo rosjava_bootstrap --edit` on `Tue, 24 Feb 2015 17:48:54 -0000`
+
+The `rosjava_bootstrap` package was released.
+
+Version of package(s) in repository `rosjava_bootstrap`:
+- upstream repository: https://github.com/rosjava/rosjava_bootstrap
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.2.1-0`
+
+Versions of tools used:
+- bloom version: `0.5.18`
+- catkin_pkg version: `0.2.3`
+- rosdep version: `0.10.28`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.35`
+
+
 ## rosjava_bootstrap (hydro) - 0.1.22-0
 
 The packages in the `rosjava_bootstrap` repository were released into the `hydro` distro by running `/usr/bin/bloom-release --track hydro --rosdistro hydro rosjava_bootstrap` on `Wed, 09 Jul 2014 20:31:08 -0000`
