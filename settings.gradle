@@ -14,5 +14,7 @@
  * the License.
  */
 
+/* rootProject.name = 'catkin' */
+
 include 'gradle_plugins'
 include 'message_generation'
