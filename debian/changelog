@@ -1,0 +1,19 @@
+ros-hydro-rosjava-bootstrap (0.1.24-0raring) raring; urgency=high
+
+  * Xml parser should also look for depend tags as well as build_depend tags.
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Thu, 18 Jun 2015 15:00:00 -0000
+
+ros-hydro-rosjava-bootstrap (0.1.23-0raring) raring; urgency=high
+
+  * Bugfix the xml parser to avoid whitespaces in returned elements.
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Mon, 15 Jun 2015 15:00:00 -0000
+
+ros-hydro-rosjava-bootstrap (0.1.22-0raring) raring; urgency=high
+
+  * Android gradle plugin 0.11.+->0.12.+ (studio 0.8.1)
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Wed, 09 Jul 2014 15:00:00 -0000
+
+
