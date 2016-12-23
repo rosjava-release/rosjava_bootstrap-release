@@ -1,18 +1,21 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package rosjava_bootstrap
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog
+=========
 
-0.1.24 (2015-06-19)
-===================
-* Xml parser should also look for depend tags as well as build_depend tags.
+0.3.0 (2016-12-13)
+------------------
+* Updates for Kinetic release.
 
-0.1.23 (2015-06-16)
-===================
-* Bugfix the xml parser to avoid whitespaces in returned elements.
-
-0.1.22 (2014-07-10)
-===================
-* Android gradle plugin 0.11.+->0.12.+ (studio 0.8.1)
+0.2.1 (2015-02-25)
+------------------
+* minor bugfixes and improvements.
+* java source compatibility for java 1.6 -> 1.7
+* centralised buildscript for java packages.
+* add eclipse and idea plugins for easy ide support.
+* Add support of UTF-8!
+* update to the latest gradle plugin.
+* single interface generator for genjava.
+* Fix SSL connection errors with Java 1.7.
+* Contributors: Damon Kohler, Daniel Stonier, Mickael Gaillard, talregev
 
 0.1.21 (2014-06-09)
 -------------------

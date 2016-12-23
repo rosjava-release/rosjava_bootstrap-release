@@ -23,12 +23,9 @@ class RosJavaPlugin implements Plugin<Project> {
         if (!project.plugins.findPlugin('maven-publish')) {
             project.apply(plugin: 'maven-publish')
         }
-        if (!project.plugins.findPlugin('osgi')) {
-            project.apply(plugin: 'osgi')
-        }
         
-        project.sourceCompatibility = 1.6
-        project.targetCompatibility = 1.6
+        project.sourceCompatibility = 1.7
+        project.targetCompatibility = 1.7
 
         if ( project.ros.mavenDeploymentRepository != 'null' && project.ros.mavenDeploymentRepository != '' ) {
             project.publishing {
