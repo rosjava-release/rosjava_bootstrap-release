@@ -33,7 +33,7 @@ subprojects {
 
   // These external repositories are copied from bootstrap.gradle.
   repositories {
-    mavenCentral()
+    jcenter()
     maven {
       url "http://repository.springsource.com/maven/bundles/release"
     }
@@ -63,4 +63,4 @@ subprojects {
   }
 }
 
-defaultTasks 'publishMavenJavaPublicationToMavenRepository', 'installApp'
+defaultTasks 'publish', 'installApp'
