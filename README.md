@@ -1,3 +1,26 @@
+## rosjava_bootstrap (kinetic) - 0.3.2-0
+
+The packages in the `rosjava_bootstrap` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release rosjava_bootstrap --track kinetic --rosdistro kinetic` on `Tue, 09 May 2017 14:49:06 -0000`
+
+The `rosjava_bootstrap` package was released.
+
+Version of package(s) in repository `rosjava_bootstrap`:
+
+- upstream repository: https://github.com/rosjava/rosjava_bootstrap
+- release repository: https://github.com/rosjava-release/rosjava_bootstrap-release.git
+- rosdistro version: `0.3.1-0`
+- old version: `0.3.1-0`
+- new version: `0.3.2-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.26`
+- catkin_pkg version: `0.3.1`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.1`
+- vcstools version: `0.1.39`
+
+
 ## rosjava_bootstrap (kinetic) - 0.3.1-0
 
 The packages in the `rosjava_bootstrap` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release rosjava_bootstrap --track kinetic --rosdistro kinetic` on `Wed, 28 Dec 2016 18:08:42 -0000`
